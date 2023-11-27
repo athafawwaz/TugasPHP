@@ -1,0 +1,52 @@
+body, h1, h2, h3, h4, h5, h6, ul, ol, li, p, form, input {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Basic styling */
+.calculator-form {
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 90%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 2px solid #000000;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-group input {
+    width: calc(25% - 5px);
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+/* Optional: Hover effect for buttons */
+.button-group input:hover {
+    background-color: #f0f0f0;
+}
+
+
+
